@@ -115,7 +115,7 @@ h6 {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-  padding: 90px 0 0px 0;
+  padding: 100px 0 0px 0;
   min-height: 20vh;
   position: relative;
 }
@@ -125,6 +125,7 @@ h6 {
   font-weight: 500;
   color: #fff;
   font-family: var(--font-secondary);
+  padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -539,6 +540,7 @@ h6 {
   font-weight: 700;
   font-size: 24px;
   color: var(--color-primary);
+  padding-bottom: 30px;
 }
 
 .about .content ul {
@@ -559,7 +561,7 @@ h6 {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--color-primary);
+  color: #0BCDFE;
   line-height: 0;
 }
 
@@ -902,6 +904,7 @@ h6 {
   transition: all ease-in-out 0.4s;
   background: var(--color-secondary);
   height: 100%;
+  width: 100%;
   overflow: hidden;
   z-index: 1;
 }
@@ -1204,13 +1207,14 @@ h6 {
 --------------------------------------------------------------*/
   @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 900px;
+        max-width: 1400px;
     }
 }
 
 .container p{
   text-align: justify;
   border: 0%;
+  line-height: 2.1;
 }
 
 
