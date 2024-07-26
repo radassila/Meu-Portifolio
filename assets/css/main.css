@@ -36,6 +36,8 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
   background-color: #000;
+  overflow-x: hidden;
+
 
 }
 
