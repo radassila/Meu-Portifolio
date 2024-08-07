@@ -163,10 +163,6 @@ h6 {
   background: var(--color-primary);
 }
 
-.page-header .cta-btn:hover {
-  background: #2cbc85;
-}
-
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
@@ -244,10 +240,8 @@ h6 {
   .header .logo i {
     font-size: 24px;
   }
-
-  html{
-    overflow-x: hidden;
-  }
+  
+  
 }
 
 .header .header-social-links {
@@ -518,6 +512,18 @@ h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+@media (max-width: 575px) {
+  .about img {
+    border-radius: 10px;
+   }
+
+   body{
+    overflow-x: hidden;
+   }
+}
+
+
+
 .about img {
  border-radius: 10px;
 }
