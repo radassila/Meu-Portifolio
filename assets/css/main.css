@@ -37,8 +37,6 @@ body{
   color: var(--color-default);
   background-color: #000;
   overflow-x: hidden;
-
-
   overflow-y: scroll;
   
 }
@@ -245,6 +243,10 @@ h6 {
 
   .header .logo i {
     font-size: 24px;
+  }
+
+  html{
+    overflow-x: hidden;
   }
 }
 
@@ -516,6 +518,10 @@ h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about img {
+ border-radius: 10px;
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -545,78 +551,6 @@ h6 {
   line-height: 0;
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-.testimonials {
-  margin-top: 80px;
-}
-
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 40px 30px;
-  background: var(--color-secondary);
-  min-height: 320px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 5px solid #474a4d;
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #fff;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
-  margin: 0;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.2);
-  opacity: 1;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.testimonials .swiper-slide {
-  opacity: 0.3;
-}
 
 @media (max-width: 1199px) {
   .testimonials .swiper-slide-active {
