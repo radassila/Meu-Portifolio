@@ -514,10 +514,10 @@ h6 {
 --------------------------------------------------------------*/
 @media (max-width: 575px) {
   .about img {
-    border-radius: 10px;
+    border-radius: 15px;
    }
 
-   html{
+   body{
     overflow-x: hidden;
    }
 }
